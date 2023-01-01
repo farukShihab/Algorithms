@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define endl '\n'
+#define endl '\n'                             //Sieve algorith to find Prime numbers upto 100000000 under 1 second
 #define ll long long int
 
 
@@ -35,7 +35,7 @@ int main()
     int i=0;
     while(i<Size){
         cout<<primes[i]<<endl;
-        i+=100;
+        i++;
     }
 
     return 0;
