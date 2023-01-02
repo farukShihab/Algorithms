@@ -1,10 +1,10 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 #define endl '\n'                             //Sieve algorith to find Prime numbers upto 100000000 under 1 second
 #define ll long long int
 
 
-vector<int> primes;
+vector<int>primes;
 bool a[100000000];
 int n=100000000;
 
