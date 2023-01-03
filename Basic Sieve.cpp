@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 #define endl '\n'                             //Sieve algorith to find Prime numbers upto 100000000 under 1 second
 #define ll long long int
